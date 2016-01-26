@@ -4,12 +4,12 @@
 
 ### 一、下载文件目录到任意位置：
 
-  git clone https://github.com/xiongwilee/chrome-extensions-boilerplate.git
+	git clone https://github.com/xiongwilee/chrome-extensions-boilerplate.git
 
 ### 二、编译生成目标文件：
 
-  cd chrome-extensions-boilerplate
-  npm install && npm run build
+	cd chrome-extensions-boilerplate
+	npm install && npm run build
 
 ### 三、本地开发
 
@@ -17,7 +17,7 @@
 
 开发中可使用实时编译：
 
-  npm run dev
+	npm run dev
 
 ## TODO
 
