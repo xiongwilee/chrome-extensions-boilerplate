@@ -1,43 +1,27 @@
-This is a boilerplate for Chrome app, extension, and theme development. It
-should be easy enough to get started even if you've never built a Chrome
-extension before by following the INSTALLATION notes.
+# A Chrome extends boilerplate
 
-Most of the boilerplate is scribbed together from the docs at
-http://code.google.com/chrome/extensions and the icons auto-generated at
-http://faviconist.com. It's all MIT-licensed.
+## 如何安装？
 
-INSTALLATION
+### 一、下载文件目录到任意位置：
 
-  The boilerplate works out of the box, so start by installing it in Chrome:
+  git clone https://github.com/xiongwilee/chrome-extensions-boilerplate.git
 
-  - git clone git://github.com/mahemoff/chrome-boilerplate.git my-project-name
-  - Visit chrome://extensions and expand "Development mode" (top right).
-  - Choose "Load unpacked extension ..." and point to the new project directory.
-  - It's installed! You should see a new button in your address bar. Click it!
+### 二、编译生成目标文件：
 
-CUSTOMIZATION
+  cd chrome-extensions-boilerplate
+  npm install && npm run build
 
-  By default, most things are commented out - uncomment them to make them active.
+### 三、本地开发
 
-  UI Exposure:
+进入`chrome://extensions/`，勾选`开发者模式`，点击`加载已解压的扩展程序...`，选择刚刚编译的`chrome-extensions-boilerplate/dist`目录即可。
 
-    Your extension can be an app, an action (address bar popup), or a theme,
-    but it can only be one of these. Or if it does other stuff, maybe it won't
-    do any at all. So at most only one of these can be uncommented.
+开发中可使用实时编译：
 
-  Permissions:
-  
-    For convenience, these are mostly selected by default (except "experimental",
-    as it requires you run Chrome with a special flag). Be sure to comment out
-    what you don't need - i.e., most of them - before distributing your extension.
+  npm run dev
 
-  Locales: 
+## TODO
 
-    A basic locale setup is included, with English declared as the default
-    language. This won't do any harm even if you're not planning to localize your app.
-
-WHO MADE THIS?
-
-  Michael Mahemoff (http://mahemoff.com). I was previously working in Google's
-  Chrome team, but am no longer at Google and this is not an official
-  Google/Chrome project.
+* 生成sougou/360 浏览器插件boilerplate
+* 详细的`manifest.json`说明文档
+* 开发APP、主题boilerplate
+* 开发插件资源连接
