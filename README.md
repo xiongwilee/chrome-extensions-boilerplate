@@ -4,11 +4,10 @@
 
 ### 一、下载文件目录到任意位置：
 
-	# 直接通过npm命令安装
-	npm install chrome-extensions-boilerplate
-	
-	# 或者通过git命令下载
+	# 通过git命令下载
 	git clone https://github.com/xiongwilee/chrome-extensions-boilerplate.git
+	# [todo]或者通过npm安装
+	npm install chrome-extensions-boilerplate
 
 ### 二、编译生成目标文件：
 
