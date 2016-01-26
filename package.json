@@ -1,6 +1,6 @@
 {
   "name": "chrome-extensions-boilerplate",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A Chrome extensions boilerplate with Gulp,less,etc.",
   "main": "index.js",
   "scripts": {
@@ -23,5 +23,23 @@
     "gulp-watch": "^4.3.5",
     "jshint": "^2.9.1",
     "run-sequence": "^1.1.5"
-  }
+  },
+  "dependencies": {
+    "gulp-clean": "^0.3.1",
+    "gulp-jshint": "^2.0.0",
+    "gulp-less": "^3.0.5",
+    "gulp-uglify": "^1.5.1",
+    "gulp-watch": "^4.3.5",
+    "jshint": "^2.9.1",
+    "gulp": "^3.9.0",
+    "run-sequence": "^1.1.5"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/xiongwilee/chrome-extensions-boilerplate.git"
+  },
+  "bugs": {
+    "url": "https://github.com/xiongwilee/chrome-extensions-boilerplate/issues"
+  },
+  "homepage": "https://github.com/xiongwilee/chrome-extensions-boilerplate#readme"
 }

@@ -25,3 +25,4 @@
 * 详细的`manifest.json`说明文档
 * 开发APP、主题boilerplate
 * 开发插件资源连接
+* 通过gulp生成crx文件
