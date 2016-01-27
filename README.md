@@ -11,7 +11,9 @@
 
 ### 二、编译生成目标文件：
 
+	# 到刚刚下载的目录
 	cd chrome-extensions-boilerplate
+	# npm install可能需要root权限,build生成的dist目录就是插件目录
 	npm install && npm run build
 
 ### 三、本地开发
