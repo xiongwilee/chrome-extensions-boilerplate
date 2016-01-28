@@ -5,16 +5,18 @@
 ### 一、下载文件目录到任意位置：
 
 	# 通过git命令下载
-	git clone https://github.com/xiongwilee/chrome-extensions-boilerplate.git
+	$ git clone https://github.com/xiongwilee/chrome-extensions-boilerplate.git
+	
 	# [todo]或者通过npm安装
-	npm install chrome-extensions-boilerplate
+	$ npm install chrome-extensions-boilerplate
 
 ### 二、编译生成目标文件：
 
 	# 到刚刚下载的目录
-	cd chrome-extensions-boilerplate
+	$ cd chrome-extensions-boilerplate
+	
 	# npm install可能需要root权限,build生成的dist目录就是插件目录
-	npm install && npm run build
+	$ npm install && npm run build
 
 ### 三、本地开发
 
