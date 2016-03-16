@@ -28,6 +28,7 @@
 
 ## TODO
 
+* livereload
 * 生成sougou/360 浏览器插件boilerplate
 * 详细的`manifest.json`说明文档
 * 开发APP、主题boilerplate
